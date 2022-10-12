@@ -12,3 +12,5 @@ class Solution:
             if root.left == None and root.right == None: return res 
             return sumValue(root.left, res) + sumValue(root.right, res)
         return sumValue(root, 0)
+
+
